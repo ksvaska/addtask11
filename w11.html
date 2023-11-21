@@ -9,28 +9,38 @@
   <body>
     <h1>Корзина</h1>
     <div class="product">
-      <img src="assets/image/колбаса.png" alt="колбаса" id="img" />
-      <p>Колбаса Докторская ГОСТ Вязанка, 400гр</p>
-      <p id="price_k">235</p>
+      <div class="pr_des">
+        <img src="assets/image/колбаса.png" alt="колбаса" id="img" />
+        <p>Колбаса Докторская ГОСТ Вязанка, 400гр</p>
+      </div>
+      <p id="price_k"></p>
     </div>
     <div class="product">
-      <img src="assets/image/кофе.jpg" alt="кофе" id="img" />
-      <p>Кофе молотый в растворимом Jacobs, 110гр</p>
-      <p id="price_c">420</p>
+      <div class="pr_des">
+        <img src="assets/image/кофе.jpg" alt="кофе" id="img" />
+        <p>Кофе молотый в растворимом Jacobs, 110гр</p>
+      </div>
+      <p id="price_c"></p>
     </div>
     <div class="product">
-      <img src="assets/image/сыр.jpg" alt="сыр" id="img" />
-      <p>Сыр Вкуснотеево Легкий 45%, 200г</p>
-      <p id="price_s">203</p>
+      <div class="pr_des">
+        <img src="assets/image/сыр.jpg" alt="сыр" id="img" />
+        <p>Сыр Вкуснотеево Легкий 45%, 200г</p>
+      </div>
+      <p id="price_s"></p>
     </div>
     <div class="product">
-      <img src="assets/image/хлеб.jpg" alt="хлеб" id="img" />
-      <p>Хлеб Аютинский Хлеб Бородинский ржано-пшеничный нарезка, 330г</p>
-      <p id="price_b">34</p>
+      <div class="pr_des">
+        <img src="assets/image/хлеб.jpg" alt="хлеб" id="img" />
+        <p>Хлеб Аютинский Хлеб Бородинский, 330г</p>
+      </div>
+      <p id="price_b"></p>
     </div>
-    <button id="btn">Использовать купон 20%</button>
-    <div id="total" onclick="calculetTotalPrice()">Итого:</div>
-    <div id="totalPrice"></div>
+    <div class="total_btn">
+      <button id="btn">Использовать купон 20%</button>
+      <div id="total">Итого:</div>
+      <div id="totalPrice"></div>
+    </div>
     <script src="assets/script/w11.js"></script>
   </body>
 </html>
